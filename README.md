@@ -16,5 +16,5 @@ $ docker build -t ciela/monacoin_mining .
 ## Run
 
 ```
-$ docker run --runtime=nvidia -it --rm ciela/monacoin_mining:latest
+$ docker run --runtime=nvidia --rm ciela/monacoin_mining:latest
 ```
